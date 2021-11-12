@@ -8,3 +8,7 @@ I just wanted to integerate Gacha for DND. I wanted to make getting items in my 
 ======================== Inspiration    =================
 <br>
 I have played genshin impact before and thats where the rolling system is designed from!
+<br>
+======================== Getting Started =================
+<br>
+I included a txt file called <b>GETTINGSTARTED.TXT</b> it should help you kickstart it
