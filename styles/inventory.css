@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght600&display=swap');
+body{
+    overflow-y: visible;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+.header {
+    width: auto;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #BD3944;
+}
+.header-text {
+    margin-left: 50px;
+}
+.header-profile {
+    align-items: right;
+    justify-content: right;
+    justify-self: right; 
+    margin-right: 50px;
+}
+.wrapper {
+    margin-top: 50px;
+}
+.space {
+    flex-grow: 3;
+}
+.top-header{
+    margin-top:5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#BD3944;
+}
+.bottom-header{
+    margin-top: 5px;
+    color: #27ae60;
+    font-size: 20px;
+}
+.export{
+    position:fixed;
+
+    bottom:6px;
+
+    text-align:center;
+
+    z-index:9999;
+
+    width: 100%;
+
+}
+.rare{
+    text-shadow: 
+    0 0 5px #9b59b6,
+    0 0 10px #9b59b6;
+}
+.legendary{
+    text-shadow: 
+    0 0 5px #f1c40f,
+    0 0 10px #f1c40f;
+}
+.uncommon {
+    text-shadow: 
+    0 0 5px #2ecc71,
+    0 0 10px #2ecc71;
+}

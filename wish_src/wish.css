@@ -1,0 +1,135 @@
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+#wrapper {
+min-height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+#result {
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.rare{
+    text-shadow: 
+    0 0 5px #9b59b6,
+    0 0 10px #9b59b6;
+}
+.legendary{
+    text-shadow: 
+    0 0 5px #f1c40f,
+    0 0 10px #f1c40f;
+}
+.uncommon {
+    text-shadow: 
+    0 0 5px #2ecc71,
+    0 0 10px #2ecc71;
+}
+#item-header {
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+#item-info {
+    margin-left:  10px;
+    border-right: 1px solid #ccc;
+    padding-right: 50px;
+}
+#item-status {
+    text-align: left;
+    font-size: 60px;
+}
+#description {
+    text-align: right;
+    margin-left: 10vh;   
+    margin-top: 15px;
+  
+}
+    
+
+body {
+margin: 0;
+padding: 0;
+overflow:  hidden;
+overflow-x: auto;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("vids/main_menu_highres.gif"); 
+  /* background-image: url('https://i.pinimg.com/originals/6e/14/50/6e1450119e41d766505a26821d27f76a.jpg'); */
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-color: black;
+}
+#warner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    color:white;
+}
+#centered {
+    position: absolute;
+    z-index: 300;
+    margin-top: 120px;
+    padding-top: 120px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#money{
+    color: white;
+    width: 150px;
+    height: 70px;
+    font-size: 40px;
+    background-color: black;
+    position:relative;
+    margin:0 auto;
+    clear:left;
+    height:auto;
+    text-align:center;/* Add This*/
+}
+#activate {
+    background: transparent;
+    border: none !important;
+    position:absolute;
+    top:0px;
+    left:0;
+    background: transparent;
+    border: none !important;
+    width:170px;
+    font-size:0;
+    z-index: 50;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+

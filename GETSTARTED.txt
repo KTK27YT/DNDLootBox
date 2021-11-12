@@ -1,0 +1,43 @@
+========== How to get started ========
+~ Requirements:
+Composer
+PHP Version 7 or greater
+~ Databases:
+2 Databases are needed
+one for normal users to login 
+one for admin logins
+
+===== DB style ====
+For normal users Create a Table called "users" using InnoDB using "utf8_general_ci"
+In table users have the following rows
+	id (primary key) int(100) AUTO_INCREMENT = TRUE			Details: 
+	email varchar(100)						Google provided email
+	password varchar(100)						Randomly generated password
+	f_name varchar(100)						Google provided first name
+	l_name varchar(100) NULL = TRUE					Google provided Last name (ALLOW NULL OR IT WILL BREAK)
+	avatar varchar(100)						Google Avatar
+	playerprofile varchar(100)					JSON profile (Created by program)
+	money int(100)							Money
+	session varchar(100)						Randomly generated Session ID
+For admins create a table called id using InnoDB using "utf8mb4_general_ci"
+In table id have the following rows
+	id (primary key) int(100) AUTO_INCREMENT = TRUE			Details:
+	email varchar(100)						Email of admin
+	password varchar(900)						Password of admin
+	auth varchar(100)						2FA secret of admin
+
+==== Email Settings ====
+You can use GMAIL to create an email account and use the credentials for sending emails
+
+==== Configuration ===
+Theres 3 CONFIG FILEs
+- config.php  -- in the root directory. Its for Google Login and APIS
+- core/config.php -- Its for User General DB Configurations and Email Configurations
+- admin/core/admin_config.php -- Its for Admin General DB configuration
+
+=== Request ===
+Some code might be messy however I would love to get some feedback on how I can improve 
+Thanks for looking at my passion project
+
+																Sincerely,
+																KTK27

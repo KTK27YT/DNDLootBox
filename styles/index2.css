@@ -1,0 +1,39 @@
+
+.bg {
+    height: 100%;
+    width: 100%;
+  /*  background-image: url("https://external-preview.redd.it/6TXAkRpxA3Qv7EIc8HqgEvKYr-_OL0MNv4m8RtLtDxI.jpg?auto=webp&s=f9e4f0568445f11bcb781b12b3a0414d8b959a57"); */
+      background-image : url('../logo/BG.jpg');
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+  }
+.centered {
+    position: absolute;
+    margin-top: 120px;
+    padding-top: 120px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+    z-index: 3;
+    text-align: center;
+  }
+  .button {
+      margin-top: 10px;
+      align-items: center;
+  }
+  
