@@ -21,3 +21,10 @@ Users can login via Google and Admins can login via the admin panel
 4. Then Open the configs.php file and edit it via the keys from Google Oath and Captcha
 5. in the Logo Folder you can change the logo for the Name of your DND
 
+## 🧰 Contributing
+
+If you would like to contribute feel free to! Just make sure you comment the code you either editied or added so it would be easier for others to read your work!
+
+## 💖 Lastly
+
+Have fun playing DND!
