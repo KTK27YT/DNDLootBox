@@ -1,14 +1,6 @@
-# DND
-Just a passion project I made
-<br>
-======================== Whats it for ? =================
-<br>
-I just wanted to integerate Gacha for DND. I wanted to make getting items in my friend's dnd campaign more interesting and fun!.
-<br>
-======================== Inspiration    =================
-<br>
-I have played genshin impact before and thats where the rolling system is designed from!
-<br>
-======================== Getting Started =================
-<br>
-I included a txt file called <b>GETTINGSTARTED.TXT</b> it should help you kickstart it
+<p align="center">
+![Banner](https://user-images.githubusercontent.com/33614825/188432827-f1e30cdc-4bec-4a7d-b0ca-6a464d7caf81.png)
+<img src="https://img.shields.io/github/last-commit/KTK27YT/DNDLootBox?style=flat-square">
+<img src="https://img.shields.io/github/license/KTK27YT/DNDLootBox?style=flat-square">
+<img src="https://img.shields.io/github/repo-size/KTK27YT/DNDLootbox?style=flat-square">
+</p>
