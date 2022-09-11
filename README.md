@@ -25,6 +25,14 @@ Users can login via Google and Admins can login via the admin panel
 
 If you would like to contribute feel free to! Just make sure you comment the code you either editied or added so it would be easier for others to read your work!
 
+## 📖 What I've Learnt
+
+- Code a frontend from scratch (HTML,CSS,JS)
+- Code a backend using PHP & SQL
+- Use JSON to pass data from PHP to JS
+
+
 ## 💖 Lastly
 
 Have fun playing DND!
+
